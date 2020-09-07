@@ -158,3 +158,22 @@ input[type=text], select, textarea {
     color: white;
 
   }
+
+
+  /* guests section */
+
+  .guests-container{
+      display: grid;
+      color: white;
+      text-align: center;
+  }
+
+
+
+  .guests-container div > img{
+    width: 20%;
+    height: auto;
+
+
+
+  }
