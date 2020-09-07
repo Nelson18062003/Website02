@@ -190,4 +190,5 @@ input[type=text], select, textarea {
     margin-top:0;
     margin-left: 43px;
     margin-right: 43px;
+    padding: 23px;
 }
