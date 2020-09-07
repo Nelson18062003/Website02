@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-image: url(../images/image03.jpg);
+    
+}
+/* header part */
+
+    /* navigation bar */
+.nav-container{
+    background-color: rgba(30, 39, 46,1.0);
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-around;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: rgba(247, 241, 227,1.0);
+    line-height: 50px;
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.nav-container ul li a:hover{
+    transition-delay: 350ms;
+    border-bottom: 2px solid rgba(32, 191, 107,1.0);
+    color: rgba(32, 191, 107,1.0);
+}
+
+
+
+    /* Title part */
+.first-title{
+    background-color: rgba(32, 191, 107,1.0);
+    height: 100px;
+}
+h1{
+    margin: 0;
+    color: rgba(247, 241, 227,1.0);
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Galada', cursive;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+/* Conference hall gallery photos */
+.conference_hall_section{
+    background-color: rgba(45, 52, 54,0.7);
+}
+.image-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 22px;
+    margin: 25px;
+    margin-bottom: 0;
+}
+
+section div > img{
+    width: 100%;
+    height: auto;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 3;
+}
+
+section > p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Sofia', cursive;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 34px;
+}
+
+/* home page */
+
+.home-page-article{
+    color: white;
+    background-color: rgba(45, 52, 54,0.7);
+    margin-top: 3em;
+    margin-left: 13em;
+    margin-right: 13em;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 3;
+}
+.home-page-article > h2{
+    font-family: 'Sofia', cursive;
+    font-size: 29px;
+    text-align: center;
+}
