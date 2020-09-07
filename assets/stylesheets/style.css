@@ -95,3 +95,66 @@ section > p{
     font-size: 29px;
     text-align: center;
 }
+
+/* about us section page */
+
+.about-us-section{
+    background-color: rgba(45, 52, 54,0.7);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 23px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 23px;
+    margin-bottom: 23px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 3;
+}
+
+.Text-Section{
+    color: white;
+    font-size: 17px;
+}
+.about-us-section:first-child{
+    text-decoration: underline;
+}
+
+/* form section */
+section > h1{
+    color: #130f40;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 3;      
+    background-color: rgba(45, 52, 54,0.7);
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 26px;
+    color: white;
+
+  }
